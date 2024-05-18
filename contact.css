@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.bc1,
+.bc2 {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.contact-form input {
+    font-size: 3vh;
+    padding: 2vh;
+    display: block;
+    width: 70%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: border-bottom 0.3s;
+
+    outline: none;
+}
+
+.contact-form input:focus {
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+
+main h4 {
+    color: rgb(5, 91, 91);
+    font-size: 1.4rem;
+    padding-bottom: 5vh;
+}
+
+main h1 {
+    color: rgb(1, 28, 28);
+    font-size: 2.4rem;
+    padding-bottom: 5vh;
+}
+
+#btnf {
+    margin-top: 8vh;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
